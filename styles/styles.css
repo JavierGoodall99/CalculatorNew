@@ -28,7 +28,7 @@ main {
     height: 80px;  
     margin-left: 46px;
     border: 2px solid black;
-    font-family: 'Quicksand', sans-serif;
+        font-family: 'Quicksand', sans-serif;
     font-size: x-large;
     background-color: rgb(253, 238, 220);
 }
@@ -59,6 +59,7 @@ main {
     main {
         width: 300px;
         height: 400px;
+        margin-top: 150px;
     }
 
     #screen {
