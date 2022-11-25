@@ -14,30 +14,30 @@
         <input type="text" id="screen" placeholder="0">
         <div class="container">
             <!-- 5th Row -->
-            <button id="leftBracket" class="keys1"></button>
-            <button id="rightBracket" class="keys1"></button>
-            <button id="division" class="keys1"></button>
+            <button id="leftBracket" class="keys" onclick="display('(')">(</button>
+            <button id="rightBracket" class="keys" onclick="display(')')">)</button>
+            <button id="del" class="keys" onclick="del()">Del</button>
             <button id="clear" class="keys" value = 'C' onclick="clearScreen(``)">AC</button>
             <!-- 4th Row -->
-            <button id="button7" value="7" class="keys" onclick="display('7')">7</button>
-            <button id="button8" value="8" class="keys" onclick="display('8')">8</button>
-            <button id="button9" value="9" class="keys" onclick="display('9')">9</button>
-            <button id="multiplication" value="*" class="keys" onclick="display('*')">*</button>
+            <button id="button7" class="keys" onclick="display('7')">7</button>
+            <button id="button8" class="keys" onclick="display('8')">8</button>
+            <button id="button9" class="keys" onclick="display('9')">9</button>
+            <button id="multiplication" class="keys" onclick="display('*')">*</button>
             <!-- 3rd Row -->
-            <button id="button4" value="4" class="keys" onclick="display('4')">4</button>
-            <button id="button5" value="5" class="keys" onclick="display('5')">5</button>
-            <button id="button6" value="6" class="keys" onclick="display('6')">6</button>
-            <button id="minus" value="-" class="keys" onclick="display('-')">-</button>
+            <button id="button4" class="keys" onclick="display('4')">4</button>
+            <button id="button5" class="keys" onclick="display('5')">5</button>
+            <button id="button6" class="keys" onclick="display('6')">6</button>
+            <button id="minus" class="keys" onclick="display('-')">-</button>
             <!-- 2nd Row -->
-            <button id="button1" value="1" class="keys" onclick="display('1')">1</button> 
-            <button id="button2" value="2" class="keys" onclick="display('2')">2</button>          
-            <button id="button3" value="3" class="keys" onclick="display('3')">3</button>
-            <button id="plus" value="+" class="keys" onclick="display('+')">+</button>
+            <button id="button1" class="keys" onclick="display('1')">1</button> 
+            <button id="button2" class="keys" onclick="display('2')">2</button>          
+            <button id="button3" class="keys" onclick="display('3')">3</button>
+            <button id="plus" class="keys" onclick="display('+')">+</button>
             <!-- 1st Row -->
-            <button id="buttonDecimal" value="." class="keys" onclick="display('.')">.</button>
-            <button id="button0" value="0" class="keys" onclick="display('0')">0</button>
-            <button id="buttonequal" value="=" class="keys" onclick="solve('')">=</button>
-            <button id="division" value="/" class="keys" onclick="display('/')" >/</button>
+            <button class="keys" onclick="displayComa('.')">.</button>
+            <button id="button0" class="keys" onclick="display('0')">0</button>
+            <button id="buttonequal" class="keys" onclick="solve('')">=</button>
+            <button id="division" class="keys" onclick="display('/')" >/</button>
         </div>
     </main>
     <script src="./js/code.js"></script>  

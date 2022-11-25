@@ -14,3 +14,15 @@ function solve() {
 function clearScreen() {
     screen.value = "";
 }
+
+//delete function
+function del() {
+    screen.value=screen.value.slice(0,-1);
+}
+
+
+function displayComa(anyVal) {
+    if (!screen.value.includes('.')) {
+        screen.value += anyVal;
+    }
+}
